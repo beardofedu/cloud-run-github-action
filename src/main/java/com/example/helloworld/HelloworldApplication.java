@@ -13,7 +13,7 @@ public class HelloworldApplication {
 		SpringApplication.run(HelloworldApplication.class, args);
 	}
 
-	@Value("${TARGET:GitHub}")
+	@Value("${TARGET:World}")
 	String target;
 
 	@RestController
